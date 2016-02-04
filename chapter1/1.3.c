@@ -17,7 +17,7 @@ main(int argc, char const *argv[])
 		err_sys("can't open %s", argv[1]);
 	}
 
-	while((dirp = readfile(dp)) != NULL)
+	while((dirp = readdir(dp)) != NULL)
 		printf("%s\n", dirp->d_name);
 	
 	closedir(dp);
