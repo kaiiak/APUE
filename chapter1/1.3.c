@@ -2,7 +2,7 @@
 #include <dirent.h>
 
 int
-int main(int argc, char const *argv[])
+main(int argc, char const *argv[])
 {
 	DIR 			*dp;
 	struct dirent 	*dirp;
