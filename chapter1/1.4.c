@@ -4,7 +4,7 @@
 #define BUFFSIZE 4096
 
 int
-mian(void)
+main(void)
 {
 	int		n;
 	char	buf[BUFFSIZE];
