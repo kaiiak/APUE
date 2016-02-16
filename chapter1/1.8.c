@@ -1,3 +1,5 @@
+/*例示strerror和perror*/
+
 #include "apue.h"
 #include <errno.h>
 
