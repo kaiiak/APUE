@@ -26,7 +26,7 @@ path_alloc(size_t *sizep)	/* also return allocated size, if nonnull */
 		posix_version = sysconf(_SC_VERSION);
 
 	if (xsi_version == 0)
-		xsi_version == sysconf(_SC_XOPEN_VERSION);
+		xsi_version = sysconf(_SC_XOPEN_VERSION);
 
 	if (pathmax == 0) {	/* first time through */
 		errno = 0;
