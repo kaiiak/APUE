@@ -41,7 +41,7 @@ BEGIN	{
     close("pathconf.sym")
     exit
 	}
-	END {
+END {
     printf(" exit(0);\n")
     printf("}\n\n")
     printf("static void\n")
