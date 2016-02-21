@@ -25,5 +25,5 @@ static long openmax = 0;
 	 			openmax = OPEN_MAX_GUESS; /* it's indeterminate 不明确的 */
 	 	}
  	}
- 	return(openmax);
+ 	return(openmax);0
  }
