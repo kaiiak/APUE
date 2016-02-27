@@ -22,7 +22,7 @@ BEGIN	{
 		printf("#ifdef %s\n", $2)
 		printf("\tpr_sysconf(\"%s = \", %s);\n", $1, $2)
 		printf("#else\n")
-		printf("\tprintf(\"no symbol for %s\\n");\n", $2)
+		printf("\tprintf(\"no symbol for %s\\n\");\n", $2)
 		printf("#endif\n")
 	}
 	close("sysconf.sym")
