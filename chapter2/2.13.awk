@@ -5,7 +5,7 @@ BEGIN	{
 	printf("#include <limits.h>\n")
 	printf("\n")
 	printf("static void pr_sysconf(char *, int);\n")
-	printf("static void pr_pathconf(char *, char *, int");\n")
+	printf("static void pr_pathconf(char *, char *, int)";\n")
 	printf("\n")
 	printf("int\n")
 	printf("main(int argc, char *argv[])\n")
