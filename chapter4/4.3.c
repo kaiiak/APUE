@@ -22,6 +22,8 @@
             ptr = "regular";
         else if (S_ISDIR(buf.st_mode))
             ptr = "directory";
+        else if (S_ISCHR(buf.st_mode))
+            ptr = "character special";
         else if (S_ISBLK(buf.st_mode))
             ptr = "block special";
         else if (S_ISFIFO(buf.st_mode))
