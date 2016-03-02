@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
 
     if (access(argv[1], R_OK) < 0)
     {
-        err_ret("access error for %s", argv[1])
+        err_ret("access error for %s", argv[1]);
     } else {
         printf("read access OK\n");
     }
