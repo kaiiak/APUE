@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
             err_ret("%s: stat error", argv[i]);
             continue;
         }
-        if ((fd = open(argv[i], O_RDWD | O_TRUNC)) < 0) { /* truncate */
+        if ((fd = open(argv[i], O_RDWR | O_TRUNC)) < 0) { /* truncate */
             err_ret("%s: open error", argv[i]);
             continue;
         }
