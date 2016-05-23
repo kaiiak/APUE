@@ -26,7 +26,8 @@ int main(void)
 	if (waitpid(pid, NULL, 0) != pid)	/* wait for first child */
 		err_sys("waitpid error");
 
-	/* We're the parent (the original process); we continue executing,
+	/*
+	 * We're the parent (the original process); we continue executing,
 	 * knowing that we're not parent of the second child.
 	 */
 	exit(0);
