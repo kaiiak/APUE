@@ -9,3 +9,5 @@
 
 
 [APUE学习笔记——进程环境](http://kaiiak.github.io/2016/04/07/APUE_study_notes-process-environment/)
+
+[APUE学习笔记——进程控制](http://kaiiak.github.io/2016/04/27/APUE_study_notes-process-control/)
